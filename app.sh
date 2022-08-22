@@ -9,6 +9,8 @@ echo $str_build
 
 echo " you gave me $prefer_name as your prefer name "
 
-sleep 10
+sleep 5
 
-echo " how will you like me to call you ?? "
+echo " how will you like me to call you with your name of the prefer_name?? "
+
+read -p "Answer : " user_answer
